@@ -53,7 +53,7 @@ type AppState =
   | "kicked-out"
 
 // Initialize socket connection
-const socket = io("http://localhost:5000")
+const socket = io("https://server-zygz.onrender.com/")
 
 export default function IntervuePollSystem() {
   const [userRole, setUserRole] = useState<UserRole>(null)
